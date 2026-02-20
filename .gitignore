@@ -1,0 +1,6 @@
+node_modules/
+backend/profile.db
+backend/uploads/
+frontend/build/
+.env
+*.DS_Store
