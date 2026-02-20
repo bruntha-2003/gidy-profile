@@ -1,30 +1,30 @@
-# 🚀 Gidy Profile Page — Full-Stack Technical Challenge
+#  Gidy Profile Page — Full-Stack Technical Challenge
 
 A full-stack profile page application built as part of the Gidy Associate Software Developer assessment. Features a polished UI, RESTful API, SQLite database, and two innovative features: **Skill Endorsements** and an **AI Bio Generator**.
 
 ---
 
-## ✨ Features
+##  Features
 
 ### Core Requirements
-- 📱 **Responsive UI** — Works beautifully on desktop and mobile
-- 🔄 **Edit Mode** — Click "Edit Profile" to update all profile data including name, bio, social links, skills, and experience
-- 🔗 **RESTful API** — Express.js backend with clean endpoints
-- 🗄️ **Persistent Database** — SQLite via `better-sqlite3` stores all profile data
-- 🌐 **Live Data** — Frontend fetches from backend on every load
+-  **Responsive UI** — Works beautifully on desktop and mobile
+-  **Edit Mode** — Click "Edit Profile" to update all profile data including name, bio, social links, skills, and experience
+-  **RESTful API** — Express.js backend with clean endpoints
+- **Persistent Database** — SQLite via `better-sqlite3` stores all profile data
+- **Live Data** — Frontend fetches from backend on every load
 
 ### Innovation Features
-1. **🏆 Skill Endorsement System** — Any visitor can endorse your skills with their name. Hover a skill badge and click the 👍 icon. Endorsements persist in the database and update in real time.
-2. **🤖 AI Bio Generator** — While editing your profile, click "Generate with AI" in the Bio field. The backend calls Claude (Anthropic API) to write a personalized, non-clichéd bio based on your name, title, location, and skills. Falls back gracefully if no API key is set.
+1. ** Skill Endorsement System** — Any visitor can endorse your skills with their name. Hover a skill badge and click the  icon. Endorsements persist in the database and update in real time.
+2. ** AI Bio Generator** — While editing your profile, click "Generate with AI" in the Bio field. The backend calls Claude (Anthropic API) to write a personalized, non-clichéd bio based on your name, title, location, and skills. Falls back gracefully if no API key is set.
 
 ### Bonus
-- 🌙 **Dark/Light Theme Toggle** — Preference persists via localStorage
-- 📊 **Interactive Work Timeline** — Visual career history with current role highlighted
-- 🗂️ **Tabbed Layout** — Overview, Experience, and Projects sections
+-  **Dark/Light Theme Toggle** — Preference persists via localStorage
+-  **Interactive Work Timeline** — Visual career history with current role highlighted
+-  **Tabbed Layout** — Overview, Experience, and Projects sections
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer | Technology | Reason |
 |---|---|---|
@@ -36,7 +36,7 @@ A full-stack profile page application built as part of the Gidy Associate Softwa
 
 ---
 
-## 🚀 Local Setup
+##  Local Setup
 
 ### Prerequisites
 - Node.js 18+
@@ -89,7 +89,7 @@ The app will open at `http://localhost:3000`
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -102,7 +102,7 @@ The app will open at `http://localhost:3000`
 
 ---
 
-## 💡 Innovation Explanation
+##  Innovation Explanation
 
 ### Why Skill Endorsements?
 On a platform like Gidy where career development is central, **social proof matters**. LinkedIn's endorsement system is powerful because it transforms a static list of skills into a community-validated credential. I added a lightweight, frictionless version of this — no account required, just a name — to demonstrate the concept without over-engineering it. Each endorsement is timestamped and persisted, enabling future features like "top endorsers" or email notifications.
@@ -112,7 +112,7 @@ Writing a compelling professional bio is genuinely hard. People either undersell
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 gidy-profile/
@@ -133,7 +133,7 @@ gidy-profile/
 
 ---
 
-## 🌐 Deployment
+##  Deployment
 
 - **Frontend**: Deploy `frontend/` to Vercel — set `REACT_APP_API_URL` to your backend URL
 - **Backend**: Deploy `backend/` to Railway or Render — set `ANTHROPIC_API_KEY` env var
@@ -141,9 +141,9 @@ gidy-profile/
 
 ---
 
-## 📬 Submission
+##  Submission
 
-Submitted by: [Your Name]  
-Email: [your@email.com]  
-GitHub: [repo URL]  
+Submitted by: [Bruntha B]  
+Email: [baskaranbruntha@gmail.com]  
+GitHub: [https://github.com/bruntha-2003/gidy-profile]  
 Live Demo: [deployment URL]
